@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <form method="POST">
+        <div class="form-field">
+            <div class="form">
+                <h1>Cadastre-se:</h1>
+                <input type="text" name="nome" placeholder="Nome" autofocus>
+                <input type="text" name="segundo-nome" placeholder="Sobrenome">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="job-field">
+                <h1>Atualmente executa qual função:</h1>
+                    <input type="radio" name="estagiario" id="estag">
+                    <label for="estag">Estagiário</label>
+                    <input type="radio" name="estagiario" id="devjun">
+                    <label for="devjun">Dev Junior</label>
+                    <input type="radio" name="estagiario" id="devple">
+                    <label for="devple">Dev Pleno</label>
+                    <input type="radio" name="estagiario" id="devsen">
+                    <label for="devsen">Dev Sênior</label>
+            </div>
+            <div class="exp">
+                <h1>Selecione as tecnologias que utiliza:</h1>
+                <input type="checkbox" name="htmlcss" id="htmlcss">
+                <label for="htmlcss">HTML e CSS</label>
+                <input type="checkbox" name="javascript" id="javascript">
+                <label for="javascript">Javascript</label>
+                <input type="checkbox" name="java" id="java">
+                <label for="java">Java</label>
+                <input type="checkbox" name="php" id="php">
+                <label for="php">PHP</label>
+                <input type="checkbox" name="python" id="python">
+                <label for="python">Python</label>
+                <input type="checkbox" name="c" id="c">
+                <label for="c">C</label>
+                <input type="checkbox" name="c#" id="c#">
+                <label for="c#">C#</label>
+                <input type="checkbox" name="c++" id="c++">
+                <label for="c++">C++</label>
+            </div>
+            <div class="sobre">
+                <textarea row="5" name="experiencia" placeholder="Conte um pouco sobre você..."></textarea>
+            </div>
+            <a href="">Cadastrar</a>
+        </div>
+    </form>
+</body>
+</html>
